@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <style>    
+        body {
+        }
+        .container {
+            margin: 30px;
+            padding: 10px 30px;
+        }
+        .bar {
+            height: 40px;
+            background-color: green;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .bar .number {
+            font-size: 24px;
+            color: #fff;
+            line-height: 40px;
+            text-align: center;
+            width: 100%;
+            display: inline-block;
+        }
+        div.row {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        div.col {
+            display: inline-block;
+            width: 20%;
+            vertical-align: top;
+            position: relative;
+        }
+        div.col:first-child {
+            width: 15%;
+        }
+        div.col:first-child p {
+            line-height: 250px;
+            bottom: initial;
+        }
+        div.col:not(:first-child) p {
+            color: #fff;            
+        }
+        div.col p {
+            margin: 0;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        img {
+            width: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+        }
+
+        .deathknight {
+            border: 1px solid #C41F3B;
+            color: #C41F3B;
+        }
+        .demonhunter {
+            border: 1px solid #A330C9;
+            color: #A330C9;
+        }
+        .druid {
+            border: 1px solid #FF7D0A;
+            color: #FF7D0A;
+        }
+        .hunter {
+            border: 1px solid #ABD473;
+            color: #ABD473;
+        }
+        .mage {
+            border: 1px solid #69CCF0;
+            color: #69CCF0;
+        }
+        .monk {
+            border: 1px solid #00FF96;
+            color: #00FF96;
+        }
+        .paladin {
+            border: 1px solid #F58CBA;
+            color: #F58CBA;
+        }
+        .priest {
+            border: 1px solid #fafafa;
+            color: #999999;
+        }
+        .rogue {
+            border: 1px solid #FFF569;
+            color: #FFF569;
+        }
+        .shaman {
+            border: 1px solid #0070DE;
+            color: #0070DE;
+        }
+        .warlock {
+            border: 1px solid #9482C9;
+            color: #9482C9;
+        }
+        .warrior {
+            border: 1px solid #C79C6E;
+            color: #C79C6E;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bar">    
+            <span class="number">35/36</span>
+        </div>  
+        
+        <div class="content">
+            <div class="row deathknight">
+                <div class="col"><p>Runenomore - DK</p></div>
+                <div class="col"><p>Blood</p><img src="rune-blood.png" alt=""></div>
+                <div class="col"><p>Frost</p><img src="rune-frost.png" alt=""></div>
+                <div class="col"><p>Unholy</p><img src="rune-unholy.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row hunter">
+                <div class="col"><p>Ebok - Hunter</p></div>
+                <div class="col"><p>BM</p><img src="ebok-bm.png" alt=""></div>
+                <div class="col"><p>MM</p><img src="ebok-mm.png" alt=""></div>
+                <div class="col"><p>Surv</p><img src="ebok-surv.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row demonhunter">
+                <div class="col"><p>Larsonia - DH</p></div>
+                <div class="col"><p>Veng</p><img src="larsonia-veng.png" alt=""></div>
+                <div class="col"><p>Havoc</p><img src="larsonia-havoc.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row paladin">
+                <div class="col"><p>Asonia - Pally</p></div>
+                <div class="col"><p>Prot</p><img src="asonia-prot.png" alt=""></div>
+                <div class="col"><p>Holy</p><img src="asonia-holy.png" alt=""></div>
+                <div class="col"><p>Ret</p><img src="asonia-ret.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row warlock">
+                <div class="col"><p>Auzzon - Lock</p></div>
+                <div class="col"><p>Aff</p><img src="auzzon-aff.png" alt=""></div>
+                <div class="col"><p>Demo</p><img src="auzzon-demo.png" alt=""></div>
+                <div class="col"><p>Destro</p><img src="auzzon-destro.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row priest">
+                <div class="col"><p>Healhuhwhat - Priest</p></div>
+                <div class="col"><p>Disc</p><img src="heal-disc.png" alt=""></div>
+                <div class="col"><p>Holy</p><img src="heal-holy.png" alt=""></div>
+                <div class="col"><p>Shadow</p><img src="heal-shad.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row druid">
+                <div class="col"><p>Genyeus - Druid</p></div>
+                <div class="col"><p>Bear</p><img src="gendyeus-bear.png" alt=""></div>
+                <div class="col"><p>Resto</p><img src="gendyeus-resto.png" alt=""></div>
+                <div class="col"><p>Feral</p><img src="gendyeus-feral.png" alt=""></div>
+                <div class="col"><p>Boomkin</p><img src="gendyeus-bal.png" alt=""></div>
+            </div>
+            <div class="row shaman">
+                <div class="col"><p>Palliin - Shammy</p></div>
+                <div class="col"><p>Resto</p><img src="palliin-resto.png" alt=""></div>
+                <div class="col"><p>Enh</p><img src="palliin-enh.png" alt=""></div>
+                <div class="col"><p>Ele</p><img src="palliin-ele.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row warrior">
+                <div class="col"><p>Rinkelle - Warrior</p></div>
+                <div class="col"><p>Prot</p><img src="rinkelle-prot.png" alt=""></div>
+                <div class="col"><p>Fury</p><img src="rinkelle-fury.png" alt=""></div>
+                <div class="col"><p>Arms</p><img src="rinkelle-arms.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row mage">
+                <div class="col"><p>Lyndal - Mage</p></div>
+                <div class="col"><p>Arcane</p><img src="lyndal-arcane.png" alt=""></div>
+                <div class="col"><p>Frost</p><img src="lyndal-frost.png" alt=""></div>
+                <div class="col"><p>Fire</p><img src="lyndal-fire.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row rogue">
+                <div class="col"><p>Viseris - Rogue</p></div>
+                <div class="col"><p>Sub</p><img src="viseris-sub.png" alt=""></div>
+                <div class="col"><p>Outlaw</p><img src="viseris-out.png" alt=""></div>
+                <div class="col"><p>Assn</p><img src="viseris-ass.png" alt=""></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row monk">
+                <div class="col"><p>Minabhanhi - Monk</p></div>
+                <div class="col"><p>Brew</p><img src="mina-bm.png" alt=""></div>
+                <div class="col"><p>WW</p><img src="mina-ww.png" alt=""></div>
+                <div class="col"><p>MW</p></div>
+                <div class="col">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> 
